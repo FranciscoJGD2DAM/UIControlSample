@@ -1,0 +1,20 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 nov. 2021, 9:35:57
+    Author     : usuario
+*/
+
+.check-box .mark {
+    -fx-shape:"M2,0L5,4L8,0L10,0L10,2L6,5L10,8L10,10L8,10L5,6L2,10L0,10L0,8L4,5L0,2L0,0Z";
+    /*Modifica el estilo de la casilla a la hora de selecionar*/
+
+}
+
+.check-box:selected .mark {
+    -fx-background-color: #0181e2;
+    /*Cuando marcas la casilla cambia el color del tic*/
+}

@@ -1,0 +1,21 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 22 nov. 2021, 8:57:48
+    Author     : usuario
+*/
+
+.tooltip {    
+    -fx-background-color: linear-gradient(#e2ecfe, #99bcfd); 
+    
+    /*AL pasar por encima del checbox muestra el estilo con el fondo en azul*/
+}
+
+.page-corner {
+    -fx-background-color: linear-gradient(from 0% 0% to 50% 50%,#3278fa,#99bcfd);
+}
+
+
